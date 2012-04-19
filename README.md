@@ -22,7 +22,7 @@ Authorize
 API Console
 -----------
 
-    % ruby api_console.rb
+    % ruby -Ku api_console.rb
 
 
 Commands
