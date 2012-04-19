@@ -23,3 +23,11 @@ API Console
 -----------
 
     % ruby api_console.rb
+
+
+Commands
+--------
+
+Show API limit
+
+    % cmds/api_limit.rb
