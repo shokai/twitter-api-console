@@ -12,4 +12,4 @@ list = ARGV.shift
 
 puts "add #{user} into list:#{list}"
 
-puts 'success!'.color(:green) if Twitter.list_add_member(ARGV[0], ARGV[1])
+puts 'success!'.color(:green) if Twitter.list_add_member(list, user)
