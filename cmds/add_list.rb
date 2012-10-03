@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require File.dirname(__FILE__)+'/../api_console'
+require File.expand_path '../api_console', File.dirname(__FILE__)
 
 if ARGV.size != 2
   puts 'Argument Error'.color(:red)

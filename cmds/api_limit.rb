@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-require File.dirname(__FILE__)+'/../api_console'
+require File.expand_path '../api_console', File.dirname(__FILE__)
 
 puts Twitter.rate_limit_status.remaining_hits
